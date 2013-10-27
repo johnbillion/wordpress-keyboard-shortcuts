@@ -86,7 +86,10 @@ class Keyboard_Shortcuts extends Keyboard_Shortcuts_Plugin {
 
 			case 'post':
 			case 'edit':
-				$links['add_new_item'] = add_query_arg( 'post_type', $screen->post_type, admin_url( 'post-new.php' ) );
+				if ( 'post' == $screen->post_type )
+					$links['add_new_item'] = admin_url( 'post-new.php' );
+				else
+					$links['add_new_item'] = add_query_arg( 'post_type', $screen->post_type, admin_url( 'post-new.php' ) );
 				$dom['save_item'] = '#post';
 				break;
 
