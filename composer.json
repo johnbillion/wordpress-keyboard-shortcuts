@@ -1,0 +1,16 @@
+{
+	"name"       : "johnbillion/wordpress-keyboard-shortcuts",
+	"description": "WordPress plugin that provides keyboard shortcuts for the admin area.",
+	"homepage"   : "https://github.com/johnbillion/wordpress-keyboard-shortcuts/",
+	"type"       : "wordpress-plugin",
+	"license"    : "GPL-2.0+",
+	"authors"    : [
+		{
+			"name"    : "John Blackbourn",
+			"homepage": "https://johnblackbourn.com/"
+		}
+	],
+	"require": {
+		"composer/installers": "~1.0"
+	}
+}
