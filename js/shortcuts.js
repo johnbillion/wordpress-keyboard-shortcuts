@@ -27,14 +27,13 @@ keyboard_shortcuts.on( 'add', function( shortcut ) {
 
 (function($){
 
-	console.log( kbs );
+	if ( window.console )
+		console.log( kbs ); // @TODO remove
 
 	// Controllers for the default shortcuts. This is almost generic enough to be a general dispatcher. Just need to abstract it from the event.
 	window.interaction_dispatcher = {
 
 		save_item : function( event ) {
-
-			console.log($( kbs.dom.save_item ).first() );
 
 			if ( ! kbs.dom.save_item )
 				return;
