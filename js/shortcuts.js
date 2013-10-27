@@ -68,6 +68,24 @@ keyboard_shortcuts.on( 'add', function( shortcut ) {
 				$('#wp-admin-bar-new-content').addClass('hover').find('a').eq(1).focus();
 			}
 
+		},
+
+		// We could do with a generic URL dispatcher method. Would need to get passed some sort of identifier for the shortcut though.
+
+		add_new_post : function( event ) {
+			window.location = kbs.links.add_new_post;
+		},
+
+		add_new_page : function( event ) {
+			window.location = kbs.links.add_new_page;
+		},
+
+		add_new_media : function( event ) {
+			window.location = kbs.links.add_new_media;
+		},
+
+		add_new_user : function( event ) {
+			window.location = kbs.links.add_new_user;
 		}
 
 	};
@@ -92,6 +110,34 @@ keyboard_shortcuts.on( 'add', function( shortcut ) {
 		description : kbs.descriptions.add_new_item,
 		combo       : '+ +',
 		callback    : interaction_dispatcher.add_new_item
+	});
+
+	// Add new Post
+	keyboard_shortcuts.add({
+		description : kbs.descriptions.add_new_post,
+		combo       : '+ p',
+		callback    : interaction_dispatcher.add_new_post
+	});
+
+	// Add new Page
+	keyboard_shortcuts.add({
+		description : kbs.descriptions.add_new_page,
+		combo       : '+ a',
+		callback    : interaction_dispatcher.add_new_page
+	});
+
+	// Add new Media
+	keyboard_shortcuts.add({
+		description : kbs.descriptions.add_new_media,
+		combo       : '+ m',
+		callback    : interaction_dispatcher.add_new_media
+	});
+
+	// Add new user
+	keyboard_shortcuts.add({
+		description : kbs.descriptions.add_new_user,
+		combo       : '+ u',
+		callback    : interaction_dispatcher.add_new_user
 	});
 
 }(jQuery));

@@ -62,15 +62,22 @@ class Keyboard_Shortcuts extends Keyboard_Shortcuts_Plugin {
 	public static function get_default_strings() {
 
 		$screen = get_current_screen();
-		$links  = $descriptions = $dom = array();
-
-		$descriptions = array(
-			'save_item'    => __( 'Save Item', 'keyboard-shortcuts' ),
-			'add_new_item' => __( 'Add New', 'keyboard-shortcuts' ),
-			'preview_item' => __( 'Preview', 'keyboard-shortcuts' ),
-			'help'         => __( 'Help', 'keyboard-shortcuts' ),
+		$links = array(
+			'add_new_post'  => admin_url( 'post-new.php' ),
+			'add_new_page'  => add_query_arg( 'post_type', 'page', admin_url( 'post-new.php' ) ),
+			'add_new_media' => admin_url( 'media-new.php' ),
+			'add_new_user'  => admin_url( 'user-new.php' ),
 		);
-
+		$descriptions = array(
+			'save_item'     => __( 'Save Item', 'keyboard-shortcuts' ),
+			'add_new_item'  => __( 'Add New', 'keyboard-shortcuts' ),
+			'preview_item'  => __( 'Preview', 'keyboard-shortcuts' ),
+			'help'          => __( 'Help', 'keyboard-shortcuts' ),
+			'add_new_post'  => get_post_type_object( 'post' )->labels->add_new_item,
+			'add_new_page'  => get_post_type_object( 'page' )->labels->add_new_item,
+			'add_new_media' => __( 'Add New Media', 'keyboard-shortcuts' ),
+			'add_new_user'  => __( 'Add New User', 'keyboard-shortcuts' ),
+		);
 		$dom = array(
 			'save_item' => '.wrap form', # @TODO This particular selector isn't working currently. Find out why. Browser security issue?
 		);
