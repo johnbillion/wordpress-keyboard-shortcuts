@@ -21,15 +21,15 @@ The "meta" key is <kbd>cmd</kbd> on a Mac and <kbd>ctrl</kbd> on Windows and Lin
 
 Work anywhere:
 
- * <kbd>+ p</kbd> - Add new Post.
- * <kbd>+ a</kbd> - Add new Page.
- * <kbd>+ m</kbd> - Add new Media.
- * <kbd>+ u</kbd> - Add new User.
+ * <kbd>+</kbd> <kbd>p</kbd> - Add new Post.
+ * <kbd>+</kbd> <kbd>a</kbd> - Add new Page.
+ * <kbd>+</kbd> <kbd>m</kbd> - Add new Media.
+ * <kbd>+</kbd> <kbd>u</kbd> - Add new User.
  * <kbd>meta+h</kbd> - Toggles WordPress' built-in Help panel.
 
 Contextual:
 
- * <kbd>+ +</kbd> (That's the plus key twice) - Contextual Add New. Works for:
+ * <kbd>+</kbd> <kbd>+</kbd> (That's the plus key twice) - Contextual Add New. Works for:
     * Posts
     * Media
     * Terms
