@@ -19,9 +19,18 @@ The plugin uses [Mousetrap](https://github.com/ccampbell/mousetrap/) for the act
 
 The "meta" key is <kbd>cmd</kbd> on a Mac and <kbd>ctrl</kbd> on Windows and Linux. See the [Mousetrap](https://github.com/ccampbell/mousetrap/) docs for more info.
 
- * <kbd>meta+s</kbd> - Save (contextual - works for posts, comments, terms, users).
+Work anywhere:
+
+ * <kbd>+ p</kbd> - Add new Post.
+ * <kbd>+ a</kbd> - Add new Page.
+ * <kbd>+ m</kbd> - Add new Media.
+ * <kbd>+ u</kbd> - Add new User.
  * <kbd>meta+h</kbd> - Toggles WordPress' built-in Help panel.
- * <kbd>+ +</kbd> (That's the plus key twice) - Add new (contextual - works for posts, terms, users).
+
+Contextual:
+
+ * <kbd>+ +</kbd> (That's the plus key twice) - Contextual Add New - works for posts, media, terms, users, network sites).
+ * <kbd>meta+s</kbd> - Contextual Save - works for posts, comments, terms, users).
 
 ## Issues ##
 
