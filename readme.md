@@ -29,8 +29,18 @@ Work anywhere:
 
 Contextual:
 
- * <kbd>+ +</kbd> (That's the plus key twice) - Contextual Add New - works for posts, media, terms, users, network sites).
- * <kbd>meta+s</kbd> - Contextual Save - works for posts, comments, terms, users).
+ * <kbd>+ +</kbd> (That's the plus key twice) - Contextual Add New. Works for:
+    * Posts
+    * Media
+    * Terms
+    * Users
+    * Network sites
+ * <kbd>meta+s</kbd> - Contextual Save. Works for:
+    * Posts
+    * Media
+    * Comments
+    * Terms
+    * Users
 
 ## Issues ##
 
