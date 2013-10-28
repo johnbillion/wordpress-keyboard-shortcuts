@@ -53,13 +53,13 @@ class Keyboard_Shortcuts extends Keyboard_Shortcuts_Plugin {
 
 		wp_localize_script(
 			'keyboard-shortcuts',
-			'kbs',
-			self::get_default_strings()
+			'ia',
+			self::get_ia_strings()
 		);
 
 	}
 
-	public static function get_default_strings() {
+	public static function get_ia_strings() {
 
 		$screen = get_current_screen();
 		$links = array(
