@@ -19,23 +19,23 @@ The plugin uses [Mousetrap](https://github.com/ccampbell/mousetrap/) for the act
 
 The "meta" key is <kbd>&#x2318;</kbd> on a Mac and <kbd>ctrl</kbd> on Windows and Linux. See the [Mousetrap](https://github.com/ccampbell/mousetrap/) docs for more info.
 
-Work anywhere:
+### Global Shortcuts ###
 
  * <kbd>+</kbd> <kbd>p</kbd> - Add new Post.
  * <kbd>+</kbd> <kbd>a</kbd> - Add new Page.
  * <kbd>+</kbd> <kbd>m</kbd> - Add new Media.
  * <kbd>+</kbd> <kbd>u</kbd> - Add new User.
- * <kbd>meta+h</kbd> - Toggles WordPress' built-in Help panel.
+ * <kbd>&#x2318; h</kbd> / <kbd>ctrl h</kbd> - Toggles WordPress' built-in Help panel.
 
-Contextual:
+### Contextual Shortcuts ###
 
- * <kbd>+</kbd> <kbd>+</kbd> (That's the plus key twice) - Contextual Add New. Works for:
+ * <kbd>+</kbd> <kbd>+</kbd> (That's the plus key twice) - Add New. Works for:
     * Posts
     * Media
     * Terms
     * Users
     * Network sites
- * <kbd>meta+s</kbd> - Contextual Save. Works for:
+ * <kbd>&#x2318; s</kbd> / <kbd>ctrl s</kbd> - Save. Works for:
     * Posts
     * Media
     * Comments
