@@ -17,7 +17,7 @@ The plugin uses [Mousetrap](https://github.com/ccampbell/mousetrap/) for the act
 
 ## Current Shortcuts ##
 
-Subject to change or disappear without notice.
+Current shortcuts are subject to change or disappear without notice.
 
 ### Navigational Shortcuts ###
 
