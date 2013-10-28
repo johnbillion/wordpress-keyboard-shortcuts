@@ -17,7 +17,7 @@ The plugin uses [Mousetrap](https://github.com/ccampbell/mousetrap/) for the act
 
 ## Current Shortcuts ##
 
-The "meta" key is <kbd>cmd</kbd> on a Mac and <kbd>ctrl</kbd> on Windows and Linux. See the [Mousetrap](https://github.com/ccampbell/mousetrap/) docs for more info.
+The "meta" key is <kbd>&#x2318;</kbd> on a Mac and <kbd>ctrl</kbd> on Windows and Linux. See the [Mousetrap](https://github.com/ccampbell/mousetrap/) docs for more info.
 
 Work anywhere:
 
