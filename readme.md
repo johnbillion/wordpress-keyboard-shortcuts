@@ -19,28 +19,35 @@ The plugin uses [Mousetrap](https://github.com/ccampbell/mousetrap/) for the act
 
 The "meta" key is <kbd>&#x2318;</kbd> on a Mac and <kbd>Ctrl</kbd> on Windows and Linux. See the [Mousetrap](https://github.com/ccampbell/mousetrap/) docs for more info.
 
-### Global Shortcuts ###
+### Navigational Shortcuts ###
 
  * <kbd>+</kbd> <kbd>P</kbd> - Add new Post.
  * <kbd>+</kbd> <kbd>A</kbd> - Add new Page.
  * <kbd>+</kbd> <kbd>M</kbd> - Add new Media.
  * <kbd>+</kbd> <kbd>U</kbd> - Add new User.
- * <kbd>&#x2318; H</kbd> / <kbd>Ctrl H</kbd> - Toggles WordPress' built-in Help panel.
 
 ### Contextual Shortcuts ###
 
- * <kbd>+</kbd> <kbd>+</kbd> (That's the plus key twice) - Add New. Works for:
+ * <kbd>+</kbd> <kbd>+</kbd> (That's the plus key twice) - Add New. Works on:
     * Posts
     * Media
     * Terms
     * Users
     * Network sites
- * <kbd>&#x2318; S</kbd> / <kbd>Ctrl S</kbd> - Save. Works for:
+ * <kbd>&#x2318; S</kbd> / <kbd>Ctrl S</kbd> - Save. Works on:
     * Posts
     * Media
     * Comments
     * Terms
     * Users
+
+### List Table Shortcuts ###
+
+None yet. See [issue #7](https://github.com/johnbillion/wordpress-keyboard-shortcuts/issues/7).
+
+### Misc Shortcuts ###
+
+ * <kbd>&#x2318; H</kbd> / <kbd>Ctrl H</kbd> - Toggles WordPress' built-in Help panel.
 
 ## Issues ##
 
