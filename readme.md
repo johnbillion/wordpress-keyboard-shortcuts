@@ -17,7 +17,7 @@ The plugin uses [Mousetrap](https://github.com/ccampbell/mousetrap/) for the act
 
 ## Current Shortcuts ##
 
-The "meta" key is <kbd>&#x2318;</kbd> on a Mac and <kbd>Ctrl</kbd> on Windows and Linux. See the [Mousetrap](https://github.com/ccampbell/mousetrap/) docs for more info.
+Subject to change or disappear without notice.
 
 ### Navigational Shortcuts ###
 
@@ -25,6 +25,11 @@ The "meta" key is <kbd>&#x2318;</kbd> on a Mac and <kbd>Ctrl</kbd> on Windows an
  * <kbd>+</kbd> <kbd>A</kbd> - Add new Page.
  * <kbd>+</kbd> <kbd>M</kbd> - Add new Media.
  * <kbd>+</kbd> <kbd>U</kbd> - Add new User.
+ * <kbd>G</kbd> <kbd>P</kbd> - Go to Posts.
+ * <kbd>G</kbd> <kbd>A</kbd> - Go to Pages.
+ * <kbd>G</kbd> <kbd>M</kbd> - Go to Media.
+ * <kbd>G</kbd> <kbd>U</kbd> - Go to Users.
+ * <kbd>G</kbd> <kbd>C</kbd> - Go to Comments.
 
 ### Contextual Shortcuts ###
 
