@@ -63,20 +63,30 @@ class Keyboard_Shortcuts extends Keyboard_Shortcuts_Plugin {
 
 		$screen = get_current_screen();
 		$links = array(
-			'add_new_post'  => admin_url( 'post-new.php' ),
-			'add_new_page'  => add_query_arg( 'post_type', 'page', admin_url( 'post-new.php' ) ),
-			'add_new_media' => admin_url( 'media-new.php' ),
-			'add_new_user'  => admin_url( 'user-new.php' ),
+			'add_new_post'   => admin_url( 'post-new.php' ),
+			'add_new_page'   => add_query_arg( 'post_type', 'page', admin_url( 'post-new.php' ) ),
+			'add_new_media'  => admin_url( 'media-new.php' ),
+			'add_new_user'   => admin_url( 'user-new.php' ),
+			'go_to_posts'    => admin_url( 'edit.php' ),
+			'go_to_pages'    => add_query_arg( 'post_type', 'page', admin_url( 'edit.php' ) ),
+			'go_to_media'    => admin_url( 'upload.php' ),
+			'go_to_users'    => admin_url( 'users.php' ),
+			'go_to_comments' => admin_url( 'edit-comments.php' ),
 		);
 		$descriptions = array(
-			'save_item'     => __( 'Save Item', 'keyboard-shortcuts' ),
-			'add_new_item'  => __( 'Add New', 'keyboard-shortcuts' ),
-			'preview_item'  => __( 'Preview', 'keyboard-shortcuts' ),
-			'help'          => __( 'Help', 'keyboard-shortcuts' ),
-			'add_new_post'  => get_post_type_object( 'post' )->labels->add_new_item,
-			'add_new_page'  => get_post_type_object( 'page' )->labels->add_new_item,
-			'add_new_media' => __( 'Add New Media', 'keyboard-shortcuts' ),
-			'add_new_user'  => __( 'Add New User', 'keyboard-shortcuts' ),
+			'save_item'      => __( 'Save Item', 'keyboard-shortcuts' ),
+			'add_new_item'   => __( 'Add New', 'keyboard-shortcuts' ),
+			'preview_item'   => __( 'Preview', 'keyboard-shortcuts' ),
+			'help'           => __( 'Help', 'keyboard-shortcuts' ),
+			'add_new_post'   => get_post_type_object( 'post' )->labels->add_new_item,
+			'add_new_page'   => get_post_type_object( 'page' )->labels->add_new_item,
+			'add_new_media'  => __( 'Add New Media', 'keyboard-shortcuts' ),
+			'add_new_user'   => __( 'Add New User', 'keyboard-shortcuts' ),
+			'go_to_posts'    => get_post_type_object( 'post' )->labels->menu_name,
+			'go_to_pages'    => get_post_type_object( 'page' )->labels->menu_name,
+			'go_to_media'    => __( 'Media', 'keyboard-shortcuts' ),
+			'go_to_users'    => __( 'Users', 'keyboard-shortcuts' ),
+			'go_to_comments' => __( 'Comments', 'keyboard-shortcuts' ),
 		);
 		$dom = array(
 			'save_item' => '.wrap form', # @TODO This particular selector isn't working currently. Find out why. Browser security issue?

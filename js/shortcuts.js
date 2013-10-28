@@ -87,6 +87,26 @@ keyboard_shortcuts.on( 'add', function( shortcut ) {
 
 		add_new_user : function() {
 			window.location = this.links.add_new_user;
+		},
+
+		go_to_posts : function() {
+			window.location = this.links.go_to_posts;
+		},
+
+		go_to_pages : function() {
+			window.location = this.links.go_to_pages;
+		},
+
+		go_to_media : function() {
+			window.location = this.links.go_to_media;
+		},
+
+		go_to_users : function() {
+			window.location = this.links.go_to_users;
+		},
+
+		go_to_comments : function() {
+			window.location = this.links.go_to_comments;
 		}
 
 	});
@@ -136,11 +156,46 @@ keyboard_shortcuts.on( 'add', function( shortcut ) {
 		callback    : _.bind(ia.add_new_media,ia)
 	});
 
-	// Add new user
+	// Add new User
 	keyboard_shortcuts.add({
 		combo       : '+ u',
 		description : ia.descriptions.add_new_user,
 		callback    : _.bind(ia.add_new_user,ia)
+	});
+
+	// Go to Posts
+	keyboard_shortcuts.add({
+		combo       : 'g p',
+		description : ia.descriptions.go_to_posts,
+		callback    : _.bind(ia.go_to_posts,ia)
+	});
+
+	// Go to Pages
+	keyboard_shortcuts.add({
+		combo       : 'g a',
+		description : ia.descriptions.go_to_pages,
+		callback    : _.bind(ia.go_to_pages,ia)
+	});
+
+	// Go to Media
+	keyboard_shortcuts.add({
+		combo       : 'g m',
+		description : ia.descriptions.go_to_media,
+		callback    : _.bind(ia.go_to_media,ia)
+	});
+
+	// Go to Users
+	keyboard_shortcuts.add({
+		combo       : 'g u',
+		description : ia.descriptions.go_to_users,
+		callback    : _.bind(ia.go_to_users,ia)
+	});
+
+	// Go to Comments
+	keyboard_shortcuts.add({
+		combo       : 'g c',
+		description : ia.descriptions.go_to_comments,
+		callback    : _.bind(ia.go_to_comments,ia)
 	});
 
 }(jQuery));
