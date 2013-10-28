@@ -17,15 +17,15 @@ The plugin uses [Mousetrap](https://github.com/ccampbell/mousetrap/) for the act
 
 ## Current Shortcuts ##
 
-The "meta" key is <kbd>&#x2318;</kbd> on a Mac and <kbd>ctrl</kbd> on Windows and Linux. See the [Mousetrap](https://github.com/ccampbell/mousetrap/) docs for more info.
+The "meta" key is <kbd>&#x2318;</kbd> on a Mac and <kbd>Ctrl</kbd> on Windows and Linux. See the [Mousetrap](https://github.com/ccampbell/mousetrap/) docs for more info.
 
 ### Global Shortcuts ###
 
- * <kbd>+</kbd> <kbd>p</kbd> - Add new Post.
- * <kbd>+</kbd> <kbd>a</kbd> - Add new Page.
- * <kbd>+</kbd> <kbd>m</kbd> - Add new Media.
- * <kbd>+</kbd> <kbd>u</kbd> - Add new User.
- * <kbd>&#x2318; h</kbd> / <kbd>ctrl h</kbd> - Toggles WordPress' built-in Help panel.
+ * <kbd>+</kbd> <kbd>P</kbd> - Add new Post.
+ * <kbd>+</kbd> <kbd>A</kbd> - Add new Page.
+ * <kbd>+</kbd> <kbd>M</kbd> - Add new Media.
+ * <kbd>+</kbd> <kbd>U</kbd> - Add new User.
+ * <kbd>&#x2318; H</kbd> / <kbd>Ctrl H</kbd> - Toggles WordPress' built-in Help panel.
 
 ### Contextual Shortcuts ###
 
@@ -35,7 +35,7 @@ The "meta" key is <kbd>&#x2318;</kbd> on a Mac and <kbd>ctrl</kbd> on Windows an
     * Terms
     * Users
     * Network sites
- * <kbd>&#x2318; s</kbd> / <kbd>ctrl s</kbd> - Save. Works for:
+ * <kbd>&#x2318; S</kbd> / <kbd>Ctrl S</kbd> - Save. Works for:
     * Posts
     * Media
     * Comments
