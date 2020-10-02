@@ -1,4 +1,4 @@
-# Keyboard Shortcuts :point_down: #
+# *Keyboard Shortcuts :point_down:* #
 
 **Contributors:** johnbillion  
 **Tags:** keyboard, shortcuts, accessibility, productivity, hotkeys  
